@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="1.619662">
+    <testsuite name="Browser Test Suite" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="1.619662">
+      <testsuite name="Tests\Browser\ExampleTest" file="C:\xampp\htdocs\contoh-laravel-test\tests\Browser\ExampleTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="1.619662">
+        <testcase name="testBasicExample" class="Tests\Browser\ExampleTest" classname="Tests.Browser.ExampleTest" file="C:\xampp\htdocs\contoh-laravel-test\tests\Browser\ExampleTest.php" line="16" assertions="1" time="1.261128">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Browser\ExampleTest::testBasicExample
+Expected value [Hello World] for the [jawab] input does not equal the actual value [Hello, World].
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'Hello World'
++'Hello, World'
+
+C:\xampp\htdocs\contoh-laravel-test\vendor\laravel\dusk\src\Concerns\MakesAssertions.php:380
+C:\xampp\htdocs\contoh-laravel-test\tests\Browser\ExampleTest.php:23
+C:\xampp\htdocs\contoh-laravel-test\vendor\laravel\dusk\src\Concerns\ProvidesBrowser.php:69
+C:\xampp\htdocs\contoh-laravel-test\tests\Browser\ExampleTest.php:24</failure>
+        </testcase>
+        <testcase name="test2" class="Tests\Browser\ExampleTest" classname="Tests.Browser.ExampleTest" file="C:\xampp\htdocs\contoh-laravel-test\tests\Browser\ExampleTest.php" line="27" assertions="1" time="0.358534"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
