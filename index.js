@@ -1,5 +1,6 @@
 const fs = require("fs");
 const convert = require("xml-js");
+const express = require("express");
 
 fs.readFile("./testing.log", "utf8", (err, res) => {
   var result = convert.xml2json(res, { compact: false, spaces: 4 });
@@ -34,4 +35,6 @@ fs.readFile("./testing.log", "utf8", (err, res) => {
   });
 
   console.log(JSON.stringify(hasil));
+
+  
 });

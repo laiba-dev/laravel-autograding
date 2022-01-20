@@ -1,0 +1,9 @@
+name: test-autograde
+description: "Laravel Autograding"
+author : Putranda Bagus
+branding : 
+  icon : 'check-circle'
+  color : 'white'
+runs:
+  using: "node12"
+  main: "index.js"
