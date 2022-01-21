@@ -1,4 +1,4 @@
-name: test-autograde
+name: laravel-autograding
 description: "Laravel Autograding"
 author : Putranda Bagus
 branding : 
